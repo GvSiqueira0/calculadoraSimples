@@ -16,6 +16,7 @@ public class Main {
 
         System.out.print("Digite o segundo número: ");
         double b = sc.nextDouble();
+        sc.close();
 
         double resultado = 0;
 
@@ -43,6 +44,6 @@ public class Main {
         }
 
         System.out.println("Resultado: " + resultado);
-
+        
     }
 }
