@@ -16,7 +16,33 @@ public class Main {
 
         System.out.print("Digite o segundo número: ");
         double b = sc.nextDouble();
-        
+
+        double resultado = 0;
+
+        switch (op) {
+
+            case '+':
+                resultado = OperacoesBasicas.soma(a, b);
+                break;
+
+            case '-':
+                resultado = OperacoesBasicas.subtracao(a, b);
+                break;
+
+            case '*':
+                resultado = OperacoesAvancadas.multiplicacao(a, b);
+                break;
+
+            case '/':
+                resultado = OperacoesAvancadas.divisao(a, b);
+                break;
+
+            default:
+                System.out.println("Operação inválida!");
+                return;
+        }
+
+        System.out.println("Resultado: " + resultado);
 
     }
 }
