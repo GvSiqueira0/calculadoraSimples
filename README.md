@@ -6,10 +6,10 @@ Este projeto é uma calculadora simples desenvolvida em Java, focada em demonstr
 ## 🚀 Funcionalidades
 
 O sistema permite realizar as quatro operações aritméticas fundamentais:
-* **Soma**: Processada pela classe `OperacoesBasicas`.
-* **Subtração**: Processada pela classe `OperacoesBasicas`.
-* **Multiplicação**: Processada pela classe `OperacoesAvancadas`.
-* **Divisão**: Processada pela classe `OperacoesAvancadas` (com verificação para evitar divisão por zero).
+* **Soma**: Processada pela classe `Calculadora`.
+* **Subtração**: Processada pela classe `Calculadora`.
+* **Multiplicação**: Processada pela classe `Calculadora`.
+* **Divisão**: Processada pela classe `Calculadora` (com verificação para evitar divisão por zero).
 
 ## 📁 Estrutura do projeto
 
