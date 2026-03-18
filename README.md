@@ -16,8 +16,7 @@ O sistema permite realizar as quatro operações aritméticas fundamentais:
 O projeto é composto por três arquivos principais:
 
 * `Main.java`: Gerencia a interface via console e o fluxo de entrada do usuário.
-* `OperacoesBasicas.java`: Contém a lógica para as operações de adição e subtração.
-* `OperacoesAvancadas.java`: Contém a lógica para as operações de multiplicação e divisão.
+* `Calculadora.java`: Contém a lógica para as operações de adição, subtração, multiplicação e divisão.
 
 ## 💻 Exemplo de Uso
 
