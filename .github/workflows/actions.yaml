@@ -4,7 +4,7 @@ on:
   # um push ou pull request for realizado tendo como alvo a branch main
   push:
     branches:
-      - newCalculo
+      - bug
   pull_request:
     branches:
       - main
