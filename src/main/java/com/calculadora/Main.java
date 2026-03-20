@@ -1,4 +1,7 @@
+package com.calculadora;
+
 import java.util.Scanner;
+
 
 public class Main {
 
