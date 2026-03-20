@@ -4,10 +4,10 @@ on:
   # um push ou pull request for realizado tendo como alvo a branch main
   push:
     branches:
-      - main
+      - calculo
   pull_request:
     branches:
-      - main
+      - calculo
 
 jobs:
   pipeline:
