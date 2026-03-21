@@ -34,7 +34,7 @@ O projeto é composto pelos seguintes arquivos:
 
 * `Main.java`: Gerencia a interface via console e o fluxo de entrada do usuário.
 * `Calculadora.java`: Contém a lógica para as operações de adição, subtração, multiplicação e divisão.
-* [cite_start]`CalculadoraTest.java`: Contém os testes unitários automatizados utilizando JUnit 5. [cite: 1]
+* `CalculadoraTest.java`: Contém os testes unitários automatizados utilizando JUnit 5.
 * `pom.xml`: Arquivo de configuração do Maven para gerenciamento de dependências e build.
 * `Makefile`: Atalhos para comandos de compilação (`mvn package`) e limpeza (`mvn clean dependency:copy-dependencies package`).
 * `.github/workflows/actions.yaml`: Configuração da esteira de Integração Contínua (CI) para execução automática de testes.
