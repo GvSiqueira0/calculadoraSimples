@@ -1,7 +1,7 @@
 # calculadoraSimples
-# 🧮 Calculadora Java Modular (Maven & CI)
+# 🧮 Calculadora Java (Maven & CI)
 
-Este projeto é uma calculadora simples desenvolvida em **Java 21**, focada em demonstrar conceitos de **modularização**, utilização da classe `Scanner`, estruturas de controle e práticas de **DevOps** (CI/CD e testes automatizados). O código está organizado seguindo o padrão Maven para facilitar a manutenção e escalabilidade.
+Este projeto é uma calculadora simples desenvolvida em **Java 21**, utilização da classe `Scanner`, estruturas de controle e práticas de **DevOps** (CI/CD e testes automatizados).
 
 ## 🚀 Funcionalidades
 
@@ -13,6 +13,7 @@ O sistema permite realizar as quatro operações aritméticas fundamentais atrav
 
 ## 📁 Estrutura do projeto
 
+```text
 .
 ├── .github/
 │   └── workflows/
@@ -27,6 +28,7 @@ O sistema permite realizar as quatro operações aritméticas fundamentais atrav
 ├── Makefile                      # Atalhos para comandos 
 ├── pom.xml                       # Configurações do Maven
 └── README.md                     # Documentação
+```
 
 O projeto é composto pelos seguintes arquivos:
 
@@ -38,11 +40,19 @@ O projeto é composto pelos seguintes arquivos:
 * `.github/workflows/actions.yaml`: Configuração da esteira de Integração Contínua (CI) para execução automática de testes.
 
 ## 💻 Exemplo de Uso
+No terminal digite:
+```text 
+mvn test
+```
+## OU
 
 Ao iniciar o programa, siga as instruções no terminal:
+
+
 ```text
 === CALCULADORA ===
 Digite o primeiro número: 10
 Escolha a operação (+, -, *, /): *
 Digite o segundo número: 5
 Resultado: 50.0
+```
